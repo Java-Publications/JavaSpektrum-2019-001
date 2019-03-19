@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.rapidpm.java-spektrum</groupId>
+  <artifactId>v001</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>Java Spektrum - Kolumne - Sven Ruppert</name>
+  <description>The core java story</description>
+
+  <packaging>jar</packaging>
+
+  <inceptionYear>2019</inceptionYear>
+  <organization>
+    <name>Sven Ruppert</name>
+    <url>https://github.com/svenruppert</url>
+  </organization>
+  <url>https://github.com/Java-Publications/java-spektrum-v-001</url>
+
+  <scm>
+    <url>https://github.com/Java-Publications/java-spektrum-v-001</url>
+    <connection>
+      scm:git:https://github.com/Java-Publications/java-spektrum-v-001.git
+    </connection>
+    <developerConnection>
+      scm:git:https://github.com/Java-Publications/java-spektrum-v-001.git
+    </developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  <developers>
+    <developer>
+      <name>Sven Ruppert</name>
+      <email>sven.ruppert@gmail.com</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>Github</system>
+    <url>
+      https://github.com/Java-Publications/java-spektrum-v-001/issues
+    </url>
+  </issueManagement>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+  <properties>
+    <!--technical-->
+    <maven.compiler.release>11</maven.compiler.release>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
+</project>
